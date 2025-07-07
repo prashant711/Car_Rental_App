@@ -1,0 +1,41 @@
+.datetime-picker {
+  display: flex;
+  gap: 30px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  position: absolute;
+  z-index: 1000;
+}
+
+.calendar-panel, .time-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  font-weight: bold;
+  color: #342d6e;
+}
+
+.time-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.save-btn {
+  margin-top: auto;
+  background: #342d6e;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
