@@ -25,13 +25,13 @@ export default function DateTimePicker({ selectedDateTime, onSave, onClose }) {
     return (
         <div className="datetime-picker">
             <div className="calendar-panel">
-                <label className="label">Pick-up date</label>
+                <label className="label">Date</label>
                 <input type="date" value={date} onChange={e => setDate(e.target.value)} />
             </div>
 
             <div className="time-panel">
-                <label className="label">Pick-up time</label>
-                <input type="time" value={date} onChange={e => setTime(e.target.value)} />
+                <label className="label">Time</label>
+                <input type="time" value={time} onChange={e => setTime(e.target.value)} />
             </div>
 
             <button className="save-btn" onClick={handleSave}>Save</button>
